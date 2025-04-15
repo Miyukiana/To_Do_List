@@ -20,7 +20,7 @@ function newTd() {
     document.getElementById("toDoList").appendChild(newElement1);
 }
 function deleteAll(){
-    const toDoList = document.querySelectorAll("li");
+    const toDoList = document.querySelectorAll("#doneList li");
 toDoList.forEach(li => li.remove());
 }
 function checkAll(){
