@@ -24,3 +24,13 @@
   .li-container {
     position: relative;
   }
+  #doneList {
+border-radius: 5px;
+border: solid 0.5px rgb(202, 51, 51);
+background-color: rgb(202, 51, 51);
+  }
+#toDoList {
+  border-radius: 5px;
+border: solid 0.5px rgb(202, 51, 51);
+background-color: rgb(202, 51, 51);
+}
