@@ -22,7 +22,14 @@ function newTd() {
             // li anders einfärben
             newElement1.classList.remove("new-task"); 
             newElement1.classList.add("done-task"); 
-        }});
+        }
+    else {
+        document.getElementById("toDoList").appendChild(newElement1);
+        // li anders einfärben
+        newElement1.classList.remove("done-task");
+        newElement1.classList.add("new-task");
+    }
+});
     // Kontextmenü erstellen
     const contextMenu = document.createElement("div");
     contextMenu.className = "menu";
