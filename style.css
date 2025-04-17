@@ -46,3 +46,17 @@ button {
 p {
   margin: 5px;
 }
+.done-task {
+background-color: rgb(241, 152, 152);
+border: solid 0.5px rgb(202, 51, 51);
+text-decoration: line-through;
+text-decoration-color: rgb(202, 51, 51);
+margin: 5px;
+border-radius: 5px;
+}
+.new-task {
+  background-color: rgb(122, 209, 122);
+    border: solid 0.5px rgb(38, 174, 38);
+    margin: 5px;
+    border-radius: 5px;
+}
