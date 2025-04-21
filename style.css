@@ -1,8 +1,11 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
 .no-style {
   list-style-type: none;
   padding-left: 0;
 }
-
 .menu {
   display: none;
   position: absolute;
@@ -50,21 +53,20 @@ button {
 }
 
 p {
-  margin: 5px;
+  margin: 10px;
 }
 
 .done-task {
-  text-decoration: line-through;
   text-decoration-color: rgb(202, 51, 51);
   margin: 5px;
   border: solid 0.5px rgb(202, 51, 51);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .new-task {
   margin: 5px;
   border: solid 0.5px rgb(38, 174, 38);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 /* ------------------- CUSTOM CHECKBOX ------------------- */
@@ -81,45 +83,31 @@ p {
 }
 
 .checkbox-style {
-  width: 16px;
-  height: 16px;
+  width: 12px;
+  height: 12px;
   border: 2px solid rgb(38, 174, 38);
-  border-radius: 4px;
+  border-radius: 7px;
   display: inline-block;
   margin-right: 8px;
   background-color: white;
   position: relative;
   transition: background-color 0.3s, border-color 0.3s;
 }
-
 /* Standard-Stil: grün */
 .custom-checkbox input.ToDo + .checkbox-style {
   border-color: rgb(38, 174, 38);
+  margin: 5px 5px 5px 5px;
 }
 
-/* Checked-Stil: rot + Haken */
+/* Checked-Stil: rot */
 .custom-checkbox input.notToDo + .checkbox-style {
   border-color: rgb(202, 51, 51);
   background-color: rgb(202, 51, 51);
-}
-
-/* Haken (sichtbar nur bei checked + class .notToDo) */
-.custom-checkbox input.notToDo + .checkbox-style::after {
-  content: '';
-  position: absolute;
-  top: 2px;
-  left: 4px;
-  width: 5px;
-  height: 10px;
-  border: solid white;
-  border-width: 0 2px 2px 0;
-  transform: rotate(45deg);
-  opacity: 1;
-  transition: opacity 0.3s;
+  margin: 5px 5px 5px 5px;
 }
 
 /* Animation: kein Haken wenn nicht checked */
-.custom-checkbox input.ToDo + .checkbox-style::after {
+.custom-checkbox input.ToDo + .checkbox-style::after + .custom-checkbox input.notToDo {
   content: '';
   opacity: 0;
 }
