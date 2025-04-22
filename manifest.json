@@ -1,0 +1,16 @@
+{
+    "name": "Matters",
+    "short_name": "Matters",
+    "lang": "de-DE",
+    "start_url": "/matters-app",
+    "display": "standalone",
+    "theme_color": "mintcream",
+    "background_color": "mintcream",
+    "icons": [
+      {
+        "src": "https://manuelwestermeier.github.io/Selina/ideeen-machen-schule/gesundheit/images/hamster-v2.jpg",
+        "sizes": "512x512",
+        "type": "image\/png"
+      }
+    ]
+}
