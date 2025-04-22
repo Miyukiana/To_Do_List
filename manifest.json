@@ -1,14 +1,14 @@
 {
-    "name": "Matters",
-    "short_name": "Matters",
+    "name": "Listly",
+    "short_name": "Listly",
     "lang": "de-DE",
-    "start_url": "/matters-app",
+    "start_url": "/To_Do_List_PWA",
     "display": "standalone",
-    "theme_color": "mintcream",
-    "background_color": "mintcream",
+    "theme_color": "rgb(138, 138, 138)",
+    "background_color": "rgb(138,138, 138)",
     "icons": [
       {
-        "src": "https://manuelwestermeier.github.io/Selina/ideeen-machen-schule/gesundheit/images/hamster-v2.jpg",
+        "src": "https://raw.githubusercontent.com/Miyukiana/To_Do_List/refs/heads/main/Final_To_Do_List_Icon.png",
         "sizes": "512x512",
         "type": "image\/png"
       }
